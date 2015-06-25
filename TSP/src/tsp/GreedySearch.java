@@ -80,9 +80,9 @@ public class GreedySearch {
 
        totalDistance = totalDistance + minDistance ;
 
-       visitList.set(point,true);
+       visitList.set(point,true); //標記已經拜訪過的城市
 
-       System.out.print(","+point);
+       System.out.print(","+point); //印出拜訪過的點
 
          
 
