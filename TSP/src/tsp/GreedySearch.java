@@ -54,13 +54,13 @@ public class GreedySearch {
 
      System.out.print(root);
 
-     int point = root;
+     int point = root;// 把起始點設為參考點
 
      visitList.set(point,true);
 
      do{
 
-       double minDistance = 99999;
+       double minDistance = 99999; // 最小距離
 
        for (int i = 0; i < cities.length; i++){
 
