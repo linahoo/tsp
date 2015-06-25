@@ -36,9 +36,9 @@ public class GreedySearch {
 
      // TODO Auto-generated method stub
 
-     City[] cities = getCities("berlin52.txt");
+     City[] cities = getCities("berlin52.txt"); //載入程式座標
 
-     int root = (int) (Math.random()*cities.length);
+     int root = (int) (Math.random()*cities.length); //隨機決定起始城市
 //     int root = 4;
     
 
